@@ -20,7 +20,7 @@ public struct Commit: Decodable {
     enum CodingKeys: String, CodingKey {
         case sha
         case nodeId = "node_id"
-        case url
+        case url = "html_url"
         case data = "commit"
         case author
         case committer

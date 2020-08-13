@@ -4,6 +4,7 @@
 - Do not use any 3rd party Library
 - Try to document your code (inline comments are fine) 
 - add a Readme file that explains your thought process while implementing the app and the decisions you made (both on design and architecture)
+- do not spend more than 3-4 hours on the task.
 
 ## Tasks
 ### **Task 1** - Connect to the Github API
@@ -266,3 +267,7 @@ Link: <https://api.github.com/resource?page=2>; rel="next",
   }
 ]
 ```
+
+## Progress
+
+Following the strict deadline I implemented the GitHub API for **task 1** and **task 2**. To speed up the process I reused some slim network code, which I wrote and published earlier (not quite 3rd party, but reuse of own code). Furthermore I chose to use SwiftUI and Combine to save some time with **task 3**. In retrospective I believe that implementing the same project with Swift and Storyboards would have been faster due to the fact that many of the interfaces in the new frameworks do not fully support all the features yet. Reading up the documentation about those would not have been necessary with UIKit. This is especially visible in the `ObservableTask.swift` file.
